@@ -1,7 +1,7 @@
 ﻿
 namespace Practica0710
 {
-    partial class Cliente
+    partial class frmCliente
     {
         /// <summary>
         /// Required designer variable.

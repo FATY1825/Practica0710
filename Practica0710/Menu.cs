@@ -46,5 +46,13 @@ namespace Practica0710
 
             }
         }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCliente fmr = new frmCliente();
+
+            fmr.MdiParent = this;
+            fmr.Show();
+        }
     }
 }
