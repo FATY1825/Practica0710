@@ -16,5 +16,10 @@ namespace Practica0710
         {
             InitializeComponent();
         }
+
+        private void metroLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
