@@ -24,6 +24,9 @@ namespace Practica0710
                 //instanciamos al formulario
                 frmTest frm = new frmTest();
 
+            //NO SE POR QUE RAZON SE ENCUENTRA ESTE ERROR YA QUE ESTA ESCRITO DE LA MISMA FORMA EN
+            //EL EXPLORADOR DE SOLUCIONES.
+
                 frm.MdiParent = this; //definir formulario padre
                 frm.Show(); // mostrar formulario
             
