@@ -40,7 +40,6 @@ namespace Practica0710
             this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox4 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox5 = new MetroFramework.Controls.MetroTextBox();
-            this.metroListView1 = new MetroFramework.Controls.MetroListView();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroButton3 = new MetroFramework.Controls.MetroButton();
@@ -59,7 +58,7 @@ namespace Practica0710
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(48, 89);
+            this.metroLabel2.Location = new System.Drawing.Point(115, 85);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(87, 19);
             this.metroLabel2.TabIndex = 1;
@@ -69,7 +68,7 @@ namespace Practica0710
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(48, 132);
+            this.metroLabel3.Location = new System.Drawing.Point(115, 132);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(64, 19);
             this.metroLabel3.TabIndex = 2;
@@ -78,7 +77,7 @@ namespace Practica0710
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(48, 174);
+            this.metroLabel4.Location = new System.Drawing.Point(115, 174);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(63, 19);
             this.metroLabel4.TabIndex = 3;
@@ -87,7 +86,7 @@ namespace Practica0710
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(48, 218);
+            this.metroLabel5.Location = new System.Drawing.Point(115, 218);
             this.metroLabel5.Name = "metroLabel5";
             this.metroLabel5.Size = new System.Drawing.Size(58, 19);
             this.metroLabel5.TabIndex = 4;
@@ -96,7 +95,7 @@ namespace Practica0710
             // metroLabel6
             // 
             this.metroLabel6.AutoSize = true;
-            this.metroLabel6.Location = new System.Drawing.Point(48, 267);
+            this.metroLabel6.Location = new System.Drawing.Point(115, 267);
             this.metroLabel6.Name = "metroLabel6";
             this.metroLabel6.Size = new System.Drawing.Size(50, 19);
             this.metroLabel6.TabIndex = 5;
@@ -117,7 +116,7 @@ namespace Practica0710
             this.metroTextBox1.CustomButton.UseSelectable = true;
             this.metroTextBox1.CustomButton.Visible = false;
             this.metroTextBox1.Lines = new string[0];
-            this.metroTextBox1.Location = new System.Drawing.Point(151, 85);
+            this.metroTextBox1.Location = new System.Drawing.Point(220, 85);
             this.metroTextBox1.MaxLength = 32767;
             this.metroTextBox1.Name = "metroTextBox1";
             this.metroTextBox1.PasswordChar = '\0';
@@ -126,7 +125,7 @@ namespace Practica0710
             this.metroTextBox1.SelectionLength = 0;
             this.metroTextBox1.SelectionStart = 0;
             this.metroTextBox1.ShortcutsEnabled = true;
-            this.metroTextBox1.Size = new System.Drawing.Size(219, 23);
+            this.metroTextBox1.Size = new System.Drawing.Size(204, 23);
             this.metroTextBox1.TabIndex = 6;
             this.metroTextBox1.UseSelectable = true;
             this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -147,7 +146,7 @@ namespace Practica0710
             this.metroTextBox2.CustomButton.UseSelectable = true;
             this.metroTextBox2.CustomButton.Visible = false;
             this.metroTextBox2.Lines = new string[0];
-            this.metroTextBox2.Location = new System.Drawing.Point(151, 127);
+            this.metroTextBox2.Location = new System.Drawing.Point(220, 128);
             this.metroTextBox2.MaxLength = 32767;
             this.metroTextBox2.Name = "metroTextBox2";
             this.metroTextBox2.PasswordChar = '\0';
@@ -156,7 +155,7 @@ namespace Practica0710
             this.metroTextBox2.SelectionLength = 0;
             this.metroTextBox2.SelectionStart = 0;
             this.metroTextBox2.ShortcutsEnabled = true;
-            this.metroTextBox2.Size = new System.Drawing.Size(219, 23);
+            this.metroTextBox2.Size = new System.Drawing.Size(368, 23);
             this.metroTextBox2.TabIndex = 7;
             this.metroTextBox2.UseSelectable = true;
             this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -177,7 +176,7 @@ namespace Practica0710
             this.metroTextBox3.CustomButton.UseSelectable = true;
             this.metroTextBox3.CustomButton.Visible = false;
             this.metroTextBox3.Lines = new string[0];
-            this.metroTextBox3.Location = new System.Drawing.Point(151, 174);
+            this.metroTextBox3.Location = new System.Drawing.Point(220, 170);
             this.metroTextBox3.MaxLength = 32767;
             this.metroTextBox3.Name = "metroTextBox3";
             this.metroTextBox3.PasswordChar = '\0';
@@ -186,7 +185,7 @@ namespace Practica0710
             this.metroTextBox3.SelectionLength = 0;
             this.metroTextBox3.SelectionStart = 0;
             this.metroTextBox3.ShortcutsEnabled = true;
-            this.metroTextBox3.Size = new System.Drawing.Size(219, 23);
+            this.metroTextBox3.Size = new System.Drawing.Size(368, 23);
             this.metroTextBox3.TabIndex = 8;
             this.metroTextBox3.UseSelectable = true;
             this.metroTextBox3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -207,7 +206,7 @@ namespace Practica0710
             this.metroTextBox4.CustomButton.UseSelectable = true;
             this.metroTextBox4.CustomButton.Visible = false;
             this.metroTextBox4.Lines = new string[0];
-            this.metroTextBox4.Location = new System.Drawing.Point(151, 213);
+            this.metroTextBox4.Location = new System.Drawing.Point(220, 214);
             this.metroTextBox4.MaxLength = 32767;
             this.metroTextBox4.Name = "metroTextBox4";
             this.metroTextBox4.PasswordChar = '\0';
@@ -237,7 +236,7 @@ namespace Practica0710
             this.metroTextBox5.CustomButton.UseSelectable = true;
             this.metroTextBox5.CustomButton.Visible = false;
             this.metroTextBox5.Lines = new string[0];
-            this.metroTextBox5.Location = new System.Drawing.Point(151, 262);
+            this.metroTextBox5.Location = new System.Drawing.Point(220, 263);
             this.metroTextBox5.MaxLength = 32767;
             this.metroTextBox5.Name = "metroTextBox5";
             this.metroTextBox5.PasswordChar = '\0';
@@ -252,21 +251,9 @@ namespace Practica0710
             this.metroTextBox5.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox5.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroListView1
-            // 
-            this.metroListView1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.metroListView1.FullRowSelect = true;
-            this.metroListView1.Location = new System.Drawing.Point(409, 58);
-            this.metroListView1.Name = "metroListView1";
-            this.metroListView1.OwnerDraw = true;
-            this.metroListView1.Size = new System.Drawing.Size(239, 228);
-            this.metroListView1.TabIndex = 11;
-            this.metroListView1.UseCompatibleStateImageBehavior = false;
-            this.metroListView1.UseSelectable = true;
-            // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(127, 338);
+            this.metroButton1.Location = new System.Drawing.Point(206, 338);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(75, 23);
             this.metroButton1.TabIndex = 12;
@@ -275,7 +262,7 @@ namespace Practica0710
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(336, 338);
+            this.metroButton2.Location = new System.Drawing.Point(349, 338);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(75, 23);
             this.metroButton2.TabIndex = 13;
@@ -284,7 +271,7 @@ namespace Practica0710
             // 
             // metroButton3
             // 
-            this.metroButton3.Location = new System.Drawing.Point(539, 338);
+            this.metroButton3.Location = new System.Drawing.Point(557, 338);
             this.metroButton3.Name = "metroButton3";
             this.metroButton3.Size = new System.Drawing.Size(75, 23);
             this.metroButton3.TabIndex = 14;
@@ -299,7 +286,6 @@ namespace Practica0710
             this.Controls.Add(this.metroButton3);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
-            this.Controls.Add(this.metroListView1);
             this.Controls.Add(this.metroTextBox5);
             this.Controls.Add(this.metroTextBox4);
             this.Controls.Add(this.metroTextBox3);
@@ -330,7 +316,6 @@ namespace Practica0710
         private MetroFramework.Controls.MetroTextBox metroTextBox3;
         private MetroFramework.Controls.MetroTextBox metroTextBox4;
         private MetroFramework.Controls.MetroTextBox metroTextBox5;
-        private MetroFramework.Controls.MetroListView metroListView1;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroButton metroButton3;

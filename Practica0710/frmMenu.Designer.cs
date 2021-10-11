@@ -1,7 +1,7 @@
 ﻿
 namespace Practica0710
 {
-    partial class Menu
+    partial class frmMenu
     {
         /// <summary>
         /// Required designer variable.

@@ -11,14 +11,14 @@ using MySql.Data.MySqlClient;
 
 namespace Practica0710
 {
-    public partial class Menu : Form
+    public partial class btnTest : Form
     {
-        public Menu()
+        public btnTest()
         {
             InitializeComponent();
         }
 
-        private void testToolStripMenuItem_Click(object sender, EventArgs e)
+        private void metroButton1_Click(object sender, EventArgs e)
         {
             string connectionString = "";
             MySqlConnection conn;
@@ -47,12 +47,9 @@ namespace Practica0710
             }
         }
 
-        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnTest_Load(object sender, EventArgs e)
         {
-            frmCliente fmr = new frmCliente();
 
-            fmr.MdiParent = this;
-            fmr.Show();
         }
     }
 }

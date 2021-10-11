@@ -1,7 +1,7 @@
 ﻿
 namespace Practica0710
 {
-    partial class Test
+    partial class btnTest
     {
         /// <summary>
         /// Required designer variable.
@@ -29,19 +29,36 @@ namespace Practica0710
         /// </summary>
         private void InitializeComponent()
         {
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
-            // Test
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(223, 98);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(123, 56);
+            this.metroButton1.TabIndex = 0;
+            this.metroButton1.Text = "TEST";
+            this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            // 
+            // btnTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(594, 281);
-            this.Name = "Test";
+            this.Controls.Add(this.metroButton1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "btnTest";
             this.Text = "Test";
+            this.Load += new System.EventHandler(this.btnTest_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private MetroFramework.Controls.MetroButton metroButton1;
     }
 }
